@@ -1,7 +1,7 @@
-a=int(input())
-b=int(input())
-c=a-b 
-if c<0:
-	print(b)
+first_number=int(input())
+second_number=int(input())
+defining_variable=first_number-second_number
+if defining_variable<0:
+	print(second_number)
 else:
-	print(a) 
+	print(first_number) 
